@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Case = require('../models/Case');
+const Case = require('../models/cases');
 
 // Create a new case
 router.post('/', async (req, res) => {
